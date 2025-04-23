@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Яндекс.Карта в Telegram</title>
+    <style>
+        body, html { 
+            margin: 0; 
+            padding: 0; 
+            width: 100%; 
+            height: 100%; 
+            overflow: hidden; 
+        }
+        #map-container {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div id="map-container">
+        <!-- Ваша карта (подстроится под размеры окна Telegram) -->
+        <script type="text/javascript" charset="utf-8" async 
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A844b704ae5b61e9c52dd5d32437fabc714d378946f62e7a4a47c0cf32fd3b79f&width=100%&height=100%&lang=ru_RU&scroll=true"></script>
+    </div>
+</body>
+</html>
